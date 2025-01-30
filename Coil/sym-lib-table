@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "/home/yeuph/Documents/Kicad/Projects/Coil_Driver/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "IcePSMNR55")(type "KiCad")(uri "/home/yeuph/Documents/Kicad/Projects/IcePSMNR55/IcePSMNR55.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,105 @@
+(footprint "1212VS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21f0182c-4cc5-4a65-8e3b-7a8a506fae17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1212VS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b9fb996b-94c6-4efe-aa65-b5bae397e7d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ff6d5c3-6b7b-48b8-b92a-79ca186ed24b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d82c1c49-0796-400e-857b-3e66592c9e74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2665456-5c9c-40ae-a751-7f923efc62d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f1f9137-c2ba-4fbc-8f58-819598eab97d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.4 0)
+		(size 3.3 10.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f4b1993f-e6eb-4221-a88f-e6530d10f529")
+	)
+	(pad "2" smd rect
+		(at 4.4 0)
+		(size 3.3 10.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e222489a-fee4-4d45-8a88-2a1f926c6b31")
+	)
+	(model "/home/yeuph/Downloads/Coilcraft-1212VS-111.STEP"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

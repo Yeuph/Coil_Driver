@@ -1,0 +1,15 @@
+# Clock input (12MHz) - UPduino's internal oscillator
+set_io clk 20
+
+# Reset input - Use one of the GPIO pins
+set_io rst_n 9
+
+# Control inputs
+set_io InVGSf 12
+set_io InVGSr 13
+
+# MOSFET outputs
+set_io Q1_out 28  # High side forward
+set_io Q2_out  2  # Low side reverse
+set_io Q3_out 38  # High side reverse
+set_io Q4_out 46  # Low side forward

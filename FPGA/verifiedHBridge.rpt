@@ -1,0 +1,90 @@
+
+icetime topological timing analysis report
+==========================================
+
+Info: max_span_hack is enabled: estimate is conservative.
+
+Report for critical path:
+-------------------------
+
+        lc40_9_5_1 (LogicCell40) [clk] -> lcout: 1.491 ns
+     1.491 ns net_34118 (rev_on_counter[1])
+        odrv_9_5_34118_37728 (Odrv4) I -> O: 0.649 ns
+        t1045 (Span4Mux_h4) I -> O: 0.543 ns
+        t1044 (Span4Mux_h4) I -> O: 0.543 ns
+        t1043 (LocalMux) I -> O: 1.099 ns
+        inmux_4_1_18955_18975 (InMux) I -> O: 0.662 ns
+        lc40_4_1_1 (LogicCell40) in3 -> lcout: 0.874 ns
+     5.861 ns net_15061 (last_dir_forward_SB_LUT4_I1_I2_SB_CARRY_CO_I1[1])
+        t590 (LocalMux) I -> O: 1.099 ns
+        inmux_5_1_22765_22798 (InMux) I -> O: 0.662 ns
+        lc40_5_1_0 (LogicCell40) in1 -> carryout: 0.675 ns
+     8.298 ns t137
+        lc40_5_1_1 (LogicCell40) carryin -> carryout: 0.278 ns
+     8.577 ns t138
+        lc40_5_1_2 (LogicCell40) carryin -> carryout: 0.278 ns
+     8.855 ns t139
+        lc40_5_1_3 (LogicCell40) carryin -> carryout: 0.278 ns
+     9.133 ns t140
+        lc40_5_1_4 (LogicCell40) carryin -> carryout: 0.278 ns
+     9.411 ns t141
+        lc40_5_1_5 (LogicCell40) carryin -> carryout: 0.278 ns
+     9.689 ns t147
+        lc40_5_1_6 (LogicCell40) carryin -> carryout: 0.278 ns
+     9.967 ns t148
+        lc40_5_1_7 (LogicCell40) carryin -> carryout: 0.278 ns
+    10.245 ns net_22838 (last_dir_forward_SB_LUT4_I3_I1[7])
+        t149 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.556 ns
+        lc40_5_2_0 (LogicCell40) carryin -> carryout: 0.278 ns
+    11.080 ns t150
+        lc40_5_2_1 (LogicCell40) carryin -> carryout: 0.278 ns
+    11.358 ns t151
+        lc40_5_2_2 (LogicCell40) carryin -> carryout: 0.278 ns
+    11.636 ns t152
+        lc40_5_2_3 (LogicCell40) carryin -> carryout: 0.278 ns
+    11.914 ns t153
+        lc40_5_2_4 (LogicCell40) carryin -> carryout: 0.278 ns
+    12.192 ns t154
+        lc40_5_2_5 (LogicCell40) carryin -> carryout: 0.278 ns
+    12.470 ns t155
+        lc40_5_2_6 (LogicCell40) carryin -> carryout: 0.278 ns
+    12.748 ns net_22995 ($nextpnr_ICESTORM_LC_10$I3)
+        inmux_5_2_22995_23005 (InMux) I -> O: 0.662 ns
+        lc40_5_2_7 (LogicCell40) in3 -> lcout: 0.874 ns
+    14.285 ns net_19026 (last_dir_forward_SB_LUT4_I3_I1[14])
+        t673 (LocalMux) I -> O: 1.099 ns
+        inmux_4_3_19234_19273 (InMux) I -> O: 0.662 ns
+        lc40_4_3_3 (LogicCell40) in3 -> lcout: 0.874 ns
+    16.921 ns net_15350 (last_dir_forward_SB_LUT4_I3_O[3])
+        t606 (LocalMux) I -> O: 1.099 ns
+        inmux_5_4_23200_23213 (InMux) I -> O: 0.662 ns
+        lc40_5_4_1 (LogicCell40) in1 -> lcout: 1.232 ns
+    19.914 ns net_19302 (FlybackVGS_SB_LUT4_I2_O[0])
+        odrv_5_4_19302_23271 (Odrv4) I -> O: 0.649 ns
+        t690 (LocalMux) I -> O: 1.099 ns
+        inmux_8_4_34058_34083 (InMux) I -> O: 0.662 ns
+        lc40_8_4_2 (LogicCell40) in3 -> lcout: 0.874 ns
+    23.198 ns net_30165 (FlybackVGS_SB_LUT4_I2_O_SB_LUT4_I2_O[0])
+        odrv_8_4_30165_30072 (Odrv4) I -> O: 0.649 ns
+        t862 (Span4Mux_h4) I -> O: 0.543 ns
+        t861 (Span4Mux_v4) I -> O: 0.649 ns
+        t860 (LocalMux) I -> O: 1.099 ns
+        inmux_3_5_15651_15697 (InMux) I -> O: 0.662 ns
+    26.801 ns net_15697 (FlybackVGS_SB_LUT4_I2_O_SB_LUT4_I2_O[0])
+        lc40_3_5_5 (LogicCell40) in0 [setup]: 1.060 ns
+    27.861 ns net_11767 (fwd_on_counter[6])
+
+Resolvable net names on path:
+     1.491 ns ..  4.987 ns rev_on_counter[1]
+     5.861 ns ..  7.623 ns last_dir_forward_SB_LUT4_I1_I2_SB_CARRY_CO_I1[1]
+    10.245 ns .. 10.802 ns last_dir_forward_SB_LUT4_I3_I1[7]
+    12.748 ns .. 13.411 ns $nextpnr_ICESTORM_LC_10$I3
+    14.285 ns .. 16.046 ns last_dir_forward_SB_LUT4_I3_I1[14]
+    16.921 ns .. 18.682 ns last_dir_forward_SB_LUT4_I3_O[3]
+    19.914 ns .. 22.324 ns FlybackVGS_SB_LUT4_I2_O[0]
+    23.198 ns .. 26.801 ns FlybackVGS_SB_LUT4_I2_O_SB_LUT4_I2_O[0]
+                  lcout -> fwd_on_counter[6]
+
+Total number of logic levels: 21
+Total path delay: 27.86 ns (35.89 MHz)
+

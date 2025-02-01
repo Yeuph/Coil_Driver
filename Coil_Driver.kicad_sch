@@ -29131,7 +29131,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "ESR10EZPF5R10"
+		(property "Value" "CRF0805-FZ-R005ELF"
 			(at 306.578 247.142 90)
 			(effects
 				(font
@@ -29149,7 +29149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/CRF.pdf"
 			(at 303.53 251.46 0)
 			(effects
 				(font
@@ -29158,7 +29158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1 OHM 1% 1/2W 0805"
+		(property "Description" "RES 5m 1% 1/2W 0805"
 			(at 304.8 245.618 90)
 			(effects
 				(font

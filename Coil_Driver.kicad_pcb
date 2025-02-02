@@ -1116,9 +1116,9 @@
 	(footprint "New_Library:WE-TDC-8018"
 		(layer "F.Cu")
 		(uuid "0357f9b7-fe1c-4375-b87e-7fd188770046")
-		(at 85.45 32.01125 90)
+		(at 85.45 32.01125)
 		(property "Reference" "L2"
-			(at 0 -0.5 90)
+			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fb7dd504-28cb-48d5-85c4-4bed18a6a3a8")
@@ -1130,7 +1130,7 @@
 			)
 		)
 		(property "Value" "74489430010"
-			(at 0 1 90)
+			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7ac2b98c-ec7e-4c05-a0d6-0a342688082d")
@@ -1142,7 +1142,7 @@
 			)
 		)
 		(property "Footprint" "New_Library:WE-TDC-8018"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74489430010.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1168,7 +1168,7 @@
 			)
 		)
 		(property "Description" "1µ, 2.85a"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1181,7 +1181,7 @@
 			)
 		)
 		(property "Sim.Device" "L"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1194,7 +1194,7 @@
 			)
 		)
 		(property "Sim.Params" "L=74489430010"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1222,36 +1222,6 @@
 			(uuid "dbc551a0-42c2-469e-b909-9c8aac243832")
 		)
 		(fp_line
-			(start 2 -4.6)
-			(end 4.6 -2)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "1258d08a-69e6-4aa3-8fa7-cdf4a2aa4009")
-		)
-		(fp_line
-			(start -2 -4.6)
-			(end 2 -4.6)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "f4f2e731-aa9d-4dd6-b2f5-4b6670477fbd")
-		)
-		(fp_line
-			(start 4.6 -2)
-			(end 4.6 2)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "439ffd3a-da4b-4697-b91d-05374261ee9b")
-		)
-		(fp_line
 			(start -4.6 -2)
 			(end -2 -4.6)
 			(stroke
@@ -1260,16 +1230,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "fa8df451-f80a-4df0-98a6-10b6e734e773")
-		)
-		(fp_line
-			(start 4.6 2)
-			(end 2 4.6)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "a236c713-064c-4cc2-a54b-74ec6dc55cc6")
 		)
 		(fp_line
 			(start -4.6 2)
@@ -1282,14 +1242,14 @@
 			(uuid "2252fffb-0681-4d23-9529-e573c0900db0")
 		)
 		(fp_line
-			(start 2 4.6)
-			(end -2 4.6)
+			(start -2 -4.6)
+			(end 2 -4.6)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "1154d01a-6937-47b7-88de-70c50f322ae7")
+			(uuid "f4f2e731-aa9d-4dd6-b2f5-4b6670477fbd")
 		)
 		(fp_line
 			(start -2 4.6)
@@ -1301,8 +1261,48 @@
 			(layer "F.CrtYd")
 			(uuid "c5534f5e-4e1c-4e9a-b2a4-a7385a419f4b")
 		)
+		(fp_line
+			(start 2 -4.6)
+			(end 4.6 -2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "1258d08a-69e6-4aa3-8fa7-cdf4a2aa4009")
+		)
+		(fp_line
+			(start 2 4.6)
+			(end -2 4.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "1154d01a-6937-47b7-88de-70c50f322ae7")
+		)
+		(fp_line
+			(start 4.6 -2)
+			(end 4.6 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "439ffd3a-da4b-4697-b91d-05374261ee9b")
+		)
+		(fp_line
+			(start 4.6 2)
+			(end 2 4.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "a236c713-064c-4cc2-a54b-74ec6dc55cc6")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
+			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1b92670d-f913-4523-8e4d-f2041877db42")
@@ -1314,7 +1314,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at 0 -3.7 270)
+			(at 0 -3.7 180)
 			(size 3.6 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "10.5V")
@@ -1324,7 +1324,7 @@
 			(uuid "7b357dd9-d9cf-46e6-a7ae-dc024d2116e3")
 		)
 		(pad "2" smd rect
-			(at -3.7 0 180)
+			(at -3.7 0 90)
 			(size 3.6 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 134 "/toInductor")
@@ -1334,7 +1334,7 @@
 			(uuid "7952e2aa-504d-42e6-ba21-1d913a82220e")
 		)
 		(pad "3" smd rect
-			(at 0 3.7 270)
+			(at 0 3.7 180)
 			(size 3.6 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 38 "Net-(D4-A)")
@@ -1344,7 +1344,7 @@
 			(uuid "2b962cae-01f7-4305-9c5f-402955f4837d")
 		)
 		(pad "4" smd rect
-			(at 3.7 0)
+			(at 3.7 0 270)
 			(size 3.6 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 23 "GND2")
@@ -1378,8 +1378,8 @@
 			)
 			(polygon
 				(pts
-					(xy 82.35 30.21125) (xy 83.65 28.91125) (xy 87.25 28.91125) (xy 88.55 30.21125) (xy 88.55 33.81125)
-					(xy 87.25 35.11125) (xy 83.65 35.11125) (xy 82.35 33.81125)
+					(xy 87.25 28.91125) (xy 88.55 30.21125) (xy 88.55 33.81125) (xy 87.25 35.11125) (xy 83.65 35.11125)
+					(xy 82.35 33.81125) (xy 82.35 30.21125) (xy 83.65 28.91125)
 				)
 			)
 		)

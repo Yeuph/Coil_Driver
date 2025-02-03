@@ -3892,10 +3892,12 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "LTtran_1_0"
 			(pin passive line
 				(at 1.27 -1.27 0)
 				(length 0.0005)
-				(name "A"
+				(name "1"
 					(effects
 						(font
 							(size 0 0)
@@ -3911,9 +3913,9 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -7.62 0)
+				(at 5.08 -7.62 180)
 				(length 0.0005)
-				(name "B"
+				(name "2"
 					(effects
 						(font
 							(size 0 0)
@@ -3928,12 +3930,10 @@
 					)
 				)
 			)
-		)
-		(symbol "LTtran_1_0"
 			(pin passive line
 				(at 5.08 -1.27 180)
 				(length 0.0005)
-				(name "B"
+				(name "3"
 					(effects
 						(font
 							(size 0 0)
@@ -3949,9 +3949,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -7.62 180)
+				(at 1.27 -7.62 0)
 				(length 0.0005)
-				(name "A"
+				(name "4"
 					(effects
 						(font
 							(size 0 0)
